@@ -145,3 +145,51 @@ footer {
   font-size: 14px;
   border-top: 1px solid #b2dfdb;
 }
+
+@media (max-width: 768px) {
+  header {
+    padding: 30px 15px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  main {
+    padding: 20px 10px;
+  }
+
+  .two-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .column {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .app-block {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .app-block img {
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+
+  .experience {
+    padding: 20px;
+  }
+
+  .survey {
+    padding: 30px 15px;
+  }
+
+  .survey-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
